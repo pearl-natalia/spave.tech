@@ -121,7 +121,7 @@
     margin-left: 40%;
     margin-right: -10%;
     align-content: right;
-    animation: slideInLeft 1.3s ease-in;
+    animation: slideInLeft 1.3s ease-in-out;
 
 }
 
@@ -132,7 +132,7 @@ header{
     margin-left:-10%;
     margin-right: 10%;
     height:10px;
-    animation: slideInRight 1.3s ease-in;
+    animation: slideInRight 1.3s ease-in-out;
 }
 
 
