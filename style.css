@@ -117,7 +117,6 @@
     margin-bottom:20%;
     height:375px;
     width:375px;
-    filter: drop-shadow(20px 20px 20px rgb(162, 162, 162));
     overflow-y: hidden;
     border-radius: 15px;
     animation: fadeIn 5s;
@@ -125,6 +124,8 @@
     -moz-animation: fadeIn 5s;
     -o-animation: fadeIn 5s;
     -ms-animation: fadeIn 5s;
+    filter: drop-shadow(20px 20px 20px rgb(162, 162, 162));
+
 }
 .calc_txt{
     margin-left:45%;
@@ -167,8 +168,9 @@
     height:375px;
     width:375px;
     border-radius: 15px;
-    filter: drop-shadow(20px 20px 20px rgb(162, 162, 162));
     overflow-y: hidden;
+    filter: drop-shadow(20px 20px 20px rgb(162, 162, 162));
+
 }
 
 .write{
@@ -190,8 +192,9 @@
     border-radius: 15px;
     height:375px;
     width:375px;
-    filter: drop-shadow(20px 20px 20px rgb(162, 162, 162));
     overflow-y: hidden;
+    filter: drop-shadow(20px 20px 20px rgb(162, 162, 162));
+
 }
 .write_txt{
     margin-left:45%;
@@ -230,8 +233,9 @@
     border-radius: 15px;
     height:375px;
     width:375px;
-    filter: drop-shadow(20px 20px 20px rgb(162, 162, 162));
     overflow-y: hidden;
+    filter: drop-shadow(20px 20px 20px rgb(162, 162, 162));
+
 }
 
 .peak{
@@ -261,8 +265,9 @@
     border-radius: 8px;
     height:550px;
     width:350px;
-    filter: drop-shadow(20px 20px 20px rgb(162, 162, 162));
     overflow-y: hidden;
+    filter: drop-shadow(20px 20px 20px rgb(162, 162, 162));
+
 }
 
 .peak_img2{
@@ -272,8 +277,9 @@
     border-radius: 8px;
     height:550px;
     width:350px;
-    filter: drop-shadow(20px 20px 20px rgb(162, 162, 162));
     overflow-y: hidden;
+    filter: drop-shadow(20px 20px 20px rgb(162, 162, 162));
+
 }
 
 .peak_img3{
@@ -283,16 +289,10 @@
     border-radius: 8px;
     height:550px;
     width:350px;
-    filter: drop-shadow(20px 20px 20px rgb(162, 162, 162));
     overflow-y: hidden;
+    filter: drop-shadow(20px 20px 20px rgb(162, 162, 162));
+
 }
-
-
-
-
-
-
-
 
 /* text */
 /* left line */
