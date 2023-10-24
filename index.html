@@ -15,12 +15,14 @@
     <!-- linking style file to this file   -->
     <link href="style.css" rel="stylesheet">
 
-   
+    <!-- linking animations -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 </head>
 
 <div class="container">
     <div class = "logo">
-        <img src="logo.webp" alt="Decorative Lline"
+        <img src="images/logo.webp" alt="Decorative Lline"
         width="130px"
         height="130px"
         >
@@ -45,6 +47,12 @@
 
     </footer>
 
+    <!-- animation -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
 </div>
 
 
@@ -61,7 +69,7 @@
     </div>
 
     <header>
-        <img src="left-line.webp" alt="Decorative Lline"
+        <img src="images/left-line.webp" alt="Decorative Lline"
             width="750px"
             height="12px"
         >
@@ -69,7 +77,7 @@
     </header>  
 
     <div class="lines">
-        <img src="right-line.webp" alt="Decorative Rline"
+        <img src="images/right-line.webp" alt="Decorative Rline"
             width="900px"
             height="15px"
         >
@@ -77,31 +85,127 @@
 
     
     <div class="calculate">
-        <div class="calc_img">
-            <img src="calculate_img.webp" alt="calculation page"
-                width="400px"
-                height="400px"
+        <div class="calc_txt"
+            data-aos="fade-in"
+            data-aos-duration="1500">
+            <h4>Calculate.</h4>   
+            <h5>Spave's custom built-in calculators<br>help 
+                you get quick calculations<br>done 
+                within seconds.
+            </h5>   
+        </div>
+        <div class="calc_img"
+            data-aos="fade-in"
+            data-aos-duration="1500">
+            <img src="images/calculate_img.webp" alt="calculation page"
+                width="375px"
+                height="375px"
+            >
+        </div>  
+    </div>
+
+    <div class="explore">
+        <div class="expl_img"
+            data-aos="fade-in"
+            data-aos-duration="1500">
+            <img src="images/explore_img.webp" alt="sales page"
+                width="375px"
+                height="375px"
             >
         </div>
-    
-        <div class="calc_txt">
-            <h3>Calculate.</h3>   
+
+        <div class="expl_txt"
+            data-aos="fade-in"
+            data-aos-duration="1500">
+            <h4>Explore.</h4>   
+            <h5>With an embedded webpage,<br>
+                you can keep up with the latest deals<br> 
+                and coupons with just one tap.
+            </h5>   
+
         </div>
     </div>
-    
 
-    
-    
-    
+    <div class="write">
+        <div class="write_txt"
+            data-aos="fade-in"
+            data-aos-duration="1500">
+            <h4>Write.</h4>   
+            <h5>Jot down grocery lists, reminders,<br>
+                or other important notes using Spave's<br>
+                notepad and the various font tools.
+            </h5>   
+        </div>
+        <div class="write_img"
+            data-aos="fade-in"
+            data-aos-duration="1500">
+            <img src="images/write_img.webp" alt="notepad page"
+                width="375px"
+                height="375px"
+            >
+        </div>  
+    </div>
 
-    
-            
-    
+    <div class="entertain">
+        <div class="entertain_img"
+            data-aos="fade-in"
+            data-aos-duration="1500">
+            <img src="images/entertain_img.webp" alt="fact page"
+                width="375px"
+                height="375px"
+            >
+        </div>  
 
-
-
-
+        <div class="entertain_txt"
+            data-aos="fade-in"
+            data-aos-duration="1500">
     
-    
+            <h4>Entertain.</h4>   
+            <h5>Learn some fascinating facts about<br>
+                money, it'll keep you entertained.
+            </h5>   
+        </div>
+        
+    </div>
+
+    <div class="peak"
+        data-aos="fade-in"
+        data-aos-duration="1500">
+        <h4>Take a peek inside...</h4>   
+        <h5>View our sleek design that's <br>
+            implemented throughout the entire app.
+        </h5>   
+    </div>  
+        
+    <div class="peak_images">
+        <div class="peak_img1"
+            data-aos="fade-in"
+            data-aos-duration="1500">
+            <img src="images/peak_img1.webp" alt="home page"
+            height="550px"
+            width="350px"
+            >
+        </div>
+
+        <div class="peak_img2"
+            data-aos="fade-in"
+            data-aos-duration="1500">
+            <img src="images/peak_img2.webp" alt="tip calculator page"
+            height="550px"
+            width="350px"
+            >
+        </div>
+
+        <div class="peak_img3"
+            data-aos="fade-in"
+            data-aos-duration="1500">
+            <img src="images/peak_img3.webp" alt="other page"
+            height="550px"
+            width="350px"
+            >
+        </div>
+        
+    </div>
+      
 </body>
 </html>
