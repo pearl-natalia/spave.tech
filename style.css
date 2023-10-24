@@ -43,22 +43,21 @@
     100% { opacity: 1; }
 }
 
-
 .container{
     margin-left: 0%;
     margin-right: 0%;
     height: 175px;
 
 }
-
 .logo{
     padding-top: 0px;
     padding-bottom: 0px;
     margin-left: 0%;
     margin-top: 1%;
+    overflow-y: hidden;
+
     
 }
-
 .menu{
     margin-left: 20%;
     margin-right: 20%;
@@ -66,46 +65,23 @@
     padding-top:5px;
     background-color: white;
     text-align: center;    
+    overflow-y: hidden;
+
     
 }
-
-
 .box1{
-    padding-top: 80px;
+    padding-top: 100px;
     margin-left: 15%;
     margin-right: 15%;
     /* line height */
     line-height: 3em;
+    overflow-y: hidden;
+    overflow-x:hidden;
 }
-
-.calculate{
-    margin-left:0%;
-    margin-right: 0%;
-    margin-top:5%;
-    height:500px;
-
-}
-
-.calc_img{
-    max-width: 30%;
-    max-height:30%;
-    margin-left:60%;
-    margin-right: 15%;
-    margin-top: 10%;
-    filter: drop-shadow(20px 20px 20px rgb(162, 162, 162));
-    float:right;
-}
-.calc_txt{
-    margin-left:3%;
-    margin-right:80%;
-    margin-top: 0%;
-    float:left;
-}
-
 .name{
     margin-left: 0px;
     margin-right: 850px;
-    margin-top: 160px;
+    margin-top: 120px;
     text-align: left;
     /* fade animation */
     animation: fadeIn 5s;
@@ -113,19 +89,212 @@
     -moz-animation: fadeIn 5s;
     -o-animation: fadeIn 5s;
     -ms-animation: fadeIn 5s;
-
 }
-
 .lines{
     padding-top: 70px;
     margin-left: 40%;
     margin-right: -10%;
+    height:7px;
     align-content: right;
     animation: slideInLeft 1.3s ease-in-out;
+}
 
+.calculate{
+    margin-left:0%;
+    margin-right:0%;
+    margin-top:5%;
+    margin-bottom:5%;
+    height:600px;
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-gap: 20px; 
+    overflow-y: hidden;
+}
+.calc_img{
+    margin-left:10%;
+    margin-right:55%;
+    margin-top: 20%;
+    margin-bottom:20%;
+    height:375px;
+    width:375px;
+    filter: drop-shadow(20px 20px 20px rgb(162, 162, 162));
+    overflow-y: hidden;
+    border-radius: 15px;
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
+}
+.calc_txt{
+    margin-left:45%;
+    margin-top: 26%;
+    margin-bottom:20%;
+    width: 500px;
+    overflow-y: hidden;
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
+}
+
+.explore{
+    margin-left:0%;
+    margin-right:0%;
+    margin-top:-5%;
+    margin-bottom:5%;
+    height:600px;
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-gap: 20px; 
+    overflow-y: hidden;
+
+}
+.expl_txt{
+    margin-left:10%;
+    margin-right:55%;
+    margin-top: 27%;
+    margin-bottom:20%;
+    width: 500px;
+    overflow-y: hidden;
+}
+.expl_img{
+    margin-left:45%;
+    margin-top: 26%;
+    margin-top: 20%;
+    margin-bottom:20%;
+    height:375px;
+    width:375px;
+    border-radius: 15px;
+    filter: drop-shadow(20px 20px 20px rgb(162, 162, 162));
+    overflow-y: hidden;
+}
+
+.write{
+    margin-left:0%;
+    margin-right:0%;
+    margin-top:-5%;
+    margin-bottom:5%;
+    height:600px;
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-gap: 20px; 
+    overflow-y: hidden;
+}
+.write_img{
+    margin-left:10%;
+    margin-right:55%;
+    margin-top: 20%;
+    margin-bottom:20%;
+    border-radius: 15px;
+    height:375px;
+    width:375px;
+    filter: drop-shadow(20px 20px 20px rgb(162, 162, 162));
+    overflow-y: hidden;
+}
+.write_txt{
+    margin-left:45%;
+    margin-top: 23%;
+    margin-bottom:20%;
+    width: 500px;
+    overflow-y: hidden;
+}
+
+.entertain{
+    margin-left:0%;
+    margin-right:0%;
+    margin-top:-5%;
+    margin-bottom:5%;
+    height:600px;
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-gap: 20px; 
+    overflow-y: hidden;
+
+}
+.entertain_txt{
+    margin-left:10%;
+    margin-right:55%;
+    margin-top: 30%;
+    margin-bottom:20%;
+    width: 500px;
+    overflow-y: hidden;
+}
+
+.entertain_img{
+    margin-left:45%;
+    margin-top: 26%;
+    margin-top: 20%;
+    margin-bottom:20%;
+    border-radius: 15px;
+    height:375px;
+    width:375px;
+    filter: drop-shadow(20px 20px 20px rgb(162, 162, 162));
+    overflow-y: hidden;
+}
+
+.peak{
+    margin-left:10%;
+    margin-right:55%;
+    margin-top: 0%;
+    margin-bottom:10%;
+    width: 500px;
+    overflow-y: hidden;
+}
+
+.peak_images{
+    margin-left:0%;
+    margin-right:0%;
+    margin-top:-15%;
+    margin-bottom:5%;
+    height:800px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    overflow-y: hidden;
+}
+
+.peak_img1{
+    margin-left:30%;
+    margin-top: 20%;
+    margin-bottom:50%;
+    border-radius: 8px;
+    height:550px;
+    width:350px;
+    filter: drop-shadow(20px 20px 20px rgb(162, 162, 162));
+    overflow-y: hidden;
+}
+
+.peak_img2{
+    margin-left:14.5%;
+    margin-top: 20%;
+    margin-bottom:20%;
+    border-radius: 8px;
+    height:550px;
+    width:350px;
+    filter: drop-shadow(20px 20px 20px rgb(162, 162, 162));
+    overflow-y: hidden;
+}
+
+.peak_img3{
+    margin-left:0%;
+    margin-top: 20%;
+    margin-bottom:20%;
+    border-radius: 8px;
+    height:550px;
+    width:350px;
+    filter: drop-shadow(20px 20px 20px rgb(162, 162, 162));
+    overflow-y: hidden;
 }
 
 
+
+
+
+
+
+
+/* text */
 /* left line */
 header{
     margin-top: -15px;
@@ -142,6 +311,8 @@ h1{
     font-family: Verdana, sans-serif;
     font-weight: 500;
     text-align: center;
+    height:50px;
+
 }
     
 p{
@@ -161,7 +332,6 @@ h2{
 
 }
 
-
 a{
     color: #B5B5B5;
     font-family:'Raleway', sans-serif;
@@ -173,15 +343,28 @@ a{
     padding-right: 35px;
   
 }
-h3{
+h4{
     color:#000000;
-    font-size: 60px;
-    font-family: Verdana, sans-serif;
-    font-weight: 500;
+    font-size: 40px;
+    font-family: 'Raleway', sans-serif;
+    font-weight:550;
     text-align: left;
 }
 
+h5{
+    color:#000000;
+    font-size: 20px;
+    font-weight: 30;
+    font-family:'Avenir Light', sans-serif;
+    text-align: left;
+    line-height: 1.7em;
+    margin-top: -5%;
+    margin-left: 1%;
 
 
+}
 
+*, body {
+    overflow-x: hidden;
 
+}
