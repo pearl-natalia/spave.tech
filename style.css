@@ -47,8 +47,8 @@
     margin-left: 0%;
     margin-right: 0%;
     height: 175px;
-
 }
+
 .logo{
     padding-top: 0px;
     padding-bottom: 0px;
@@ -117,6 +117,7 @@
     margin-bottom:20%;
     height:375px;
     width:375px;
+    filter: drop-shadow(20px 20px 20px rgb(162, 162, 162));
     overflow-y: hidden;
     border-radius: 15px;
     animation: fadeIn 5s;
@@ -124,8 +125,6 @@
     -moz-animation: fadeIn 5s;
     -o-animation: fadeIn 5s;
     -ms-animation: fadeIn 5s;
-    filter: drop-shadow(20px 20px 20px rgb(162, 162, 162));
-
 }
 .calc_txt{
     margin-left:45%;
@@ -138,6 +137,8 @@
     -moz-animation: fadeIn 5s;
     -o-animation: fadeIn 5s;
     -ms-animation: fadeIn 5s;
+    text-align: left;
+
 }
 
 .explore{
@@ -159,6 +160,8 @@
     margin-bottom:20%;
     width: 500px;
     overflow-y: hidden;
+    text-align: left;
+
 }
 .expl_img{
     margin-left:45%;
@@ -168,9 +171,8 @@
     height:375px;
     width:375px;
     border-radius: 15px;
-    overflow-y: hidden;
     filter: drop-shadow(20px 20px 20px rgb(162, 162, 162));
-
+    overflow-y: hidden;
 }
 
 .write{
@@ -192,9 +194,8 @@
     border-radius: 15px;
     height:375px;
     width:375px;
-    overflow-y: hidden;
     filter: drop-shadow(20px 20px 20px rgb(162, 162, 162));
-
+    overflow-y: hidden;
 }
 .write_txt{
     margin-left:45%;
@@ -202,6 +203,7 @@
     margin-bottom:20%;
     width: 500px;
     overflow-y: hidden;
+    text-align: left;
 }
 
 .entertain{
@@ -233,9 +235,8 @@
     border-radius: 15px;
     height:375px;
     width:375px;
-    overflow-y: hidden;
     filter: drop-shadow(20px 20px 20px rgb(162, 162, 162));
-
+    overflow-y: hidden;
 }
 
 .peak{
@@ -265,9 +266,8 @@
     border-radius: 8px;
     height:550px;
     width:350px;
-    overflow-y: hidden;
     filter: drop-shadow(20px 20px 20px rgb(162, 162, 162));
-
+    overflow-y: hidden;
 }
 
 .peak_img2{
@@ -277,9 +277,8 @@
     border-radius: 8px;
     height:550px;
     width:350px;
-    overflow-y: hidden;
     filter: drop-shadow(20px 20px 20px rgb(162, 162, 162));
-
+    overflow-y: hidden;
 }
 
 .peak_img3{
@@ -289,10 +288,48 @@
     border-radius: 8px;
     height:550px;
     width:350px;
-    overflow-y: hidden;
     filter: drop-shadow(20px 20px 20px rgb(162, 162, 162));
-
+    overflow-y: hidden;
 }
+
+.about_spave{
+    margin-left:20%;
+    margin-right:20%;
+    margin-top: 5%;
+    margin-bottom:20%;
+    overflow-y: hidden;
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
+    text-align: right;
+}
+
+.download_txt{
+    margin-left:20%;
+    margin-right:20%;
+    margin-top: 2%;
+    margin-bottom:3%;
+    height:100px;
+    overflow-y: hidden;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.app_img{
+    margin-left:40%;
+    margin-bottom:40%;
+    margin-top:0%;
+    overflow-y: hidden;
+    width: 300px;
+    height:300px;
+    filter: drop-shadow(20px 20px 20px rgb(162, 162, 162));
+    border-radius: 20px;
+    background-color: red;
+    object-fit: cover;
+}
+
 
 /* text */
 /* left line */
@@ -348,7 +385,7 @@ h4{
     font-size: 40px;
     font-family: 'Raleway', sans-serif;
     font-weight:550;
-    text-align: left;
+    text-align: center;
 }
 
 h5{
@@ -360,9 +397,9 @@ h5{
     line-height: 1.7em;
     margin-top: -5%;
     margin-left: 1%;
-
-
 }
+
+
 
 *, body {
     overflow-x: hidden;
