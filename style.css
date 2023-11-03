@@ -299,7 +299,7 @@
     margin-left:20%;
     margin-right:20%;
     margin-top: 5%;
-    margin-bottom:20%;
+    margin-bottom:5%;
     overflow-y: hidden;
     animation: fadeIn 5s;
     -webkit-animation: fadeIn 5s;
@@ -307,6 +307,49 @@
     -o-animation: fadeIn 5s;
     -ms-animation: fadeIn 5s;
     text-align: right;
+}
+
+.math_on_us{
+    margin-left:20%;
+    margin-right:20%;
+    margin-top: 5%;
+    margin-bottom:5%;
+    overflow-y: hidden;
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
+    text-align: right;
+}
+
+
+.less_is_more{
+    margin-left:20%;
+    margin-right:20%;
+    margin-top: 5%;
+    margin-bottom:5%;
+    overflow-y: hidden;
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
+    text-align: left;
+}
+
+.in_one_place{
+    margin-left:20%;
+    margin-right:20%;
+    margin-top: 5%;
+    margin-bottom:5%;
+    overflow-y: hidden;
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
+    text-align: left;
 }
 
 .download_txt{
@@ -322,14 +365,13 @@
 
 .app_img{
     margin-left:40%;
-    margin-bottom:40%;
-    margin-top:0%;
-    overflow-y: hidden;
-    width: 300px;
-    height:300px;
-    filter: drop-shadow(20px 20px 20px rgb(162, 162, 162));
+    margin-bottom:10%;
+    /* overflow-y: hidden; */
+    width: 250px;
+    height:250px;
+    /* filter: drop-shadow(20px 20px 20px rgb(162, 162, 162)); */
     border-radius: 20px;
-    background-color: red;
+    background-color: grey;
     object-fit: cover;
 }
 
