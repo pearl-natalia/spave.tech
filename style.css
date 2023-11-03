@@ -66,23 +66,20 @@
     background-color: white;
     text-align: center;    
     overflow-y: hidden;
-
-    
 }
 .box1{
     padding-top: 100px;
     margin-left: 15%;
     margin-right: 15%;
-    /* line height */
     line-height: 3em;
-    overflow-y: hidden;
+    overflow-y:hidden;
     overflow-x:hidden;
 }
 .name{
     margin-left: 0px;
-    margin-right: 850px;
     margin-top: 120px;
-    text-align: left;
+    text-align: right;
+    width:51%;
     /* fade animation */
     animation: fadeIn 5s;
     -webkit-animation: fadeIn 5s;
@@ -109,6 +106,7 @@
     grid-template-columns: 1fr 1fr; 
     grid-gap: 20px; 
     overflow-y: hidden;
+    scroll-snap-align: start;
 }
 .calc_img{
     margin-left:10%;
@@ -138,6 +136,7 @@
     -o-animation: fadeIn 5s;
     -ms-animation: fadeIn 5s;
     text-align: left;
+    color:#000000;
 
 }
 
@@ -152,6 +151,7 @@
     grid-gap: 20px; 
     overflow-y: hidden;
 
+
 }
 .expl_txt{
     margin-left:10%;
@@ -161,6 +161,7 @@
     width: 500px;
     overflow-y: hidden;
     text-align: left;
+    color:#000000;
 
 }
 .expl_img{
@@ -205,6 +206,7 @@
     width: 500px;
     overflow-y: hidden;
     text-align: left;
+    color:#000000;
 }
 
 .entertain{
@@ -218,7 +220,6 @@
     grid-gap: 20px; 
     overflow-y: hidden;
 
-
 }
 .entertain_txt{
     margin-left:10%;
@@ -228,6 +229,7 @@
     width: 500px;
     overflow-y: hidden;
     text-align: left;
+    color:#000000;
 }
 
 .entertain_img{
@@ -295,7 +297,7 @@
     overflow-y: hidden;
 }
 
-.about_spave{
+.about_spave, .math_on_us{
     margin-left:20%;
     margin-right:20%;
     margin-top: 5%;
@@ -307,26 +309,12 @@
     -o-animation: fadeIn 5s;
     -ms-animation: fadeIn 5s;
     text-align: right;
+    color:#000000;
 }
 
-.math_on_us{
+.less_is_more,.in_one_place{
     margin-left:20%;
-    margin-right:20%;
-    margin-top: 5%;
-    margin-bottom:5%;
-    overflow-y: hidden;
-    animation: fadeIn 5s;
-    -webkit-animation: fadeIn 5s;
-    -moz-animation: fadeIn 5s;
-    -o-animation: fadeIn 5s;
-    -ms-animation: fadeIn 5s;
-    text-align: right;
-}
-
-
-.less_is_more{
-    margin-left:20%;
-    margin-right:20%;
+    margin-right:15%;
     margin-top: 5%;
     margin-bottom:5%;
     overflow-y: hidden;
@@ -336,20 +324,8 @@
     -o-animation: fadeIn 5s;
     -ms-animation: fadeIn 5s;
     text-align: left;
-}
-
-.in_one_place{
-    margin-left:20%;
-    margin-right:20%;
-    margin-top: 5%;
-    margin-bottom:5%;
-    overflow-y: hidden;
-    animation: fadeIn 5s;
-    -webkit-animation: fadeIn 5s;
-    -moz-animation: fadeIn 5s;
-    -o-animation: fadeIn 5s;
-    -ms-animation: fadeIn 5s;
-    text-align: left;
+    color:#000000;
+    
 }
 
 .download_txt{
@@ -361,6 +337,7 @@
     overflow-y: hidden;
     text-align: center;
     padding-bottom: 50px;
+    color:#000000;
 }
 
 .app_img{
@@ -374,13 +351,14 @@
     background-color: white;
     display:flex;
     align-items: center;
+    animation: fadeIn 5s;
     -webkit-animation: fadeIn 3s;
     -moz-animation: fadeIn 3s;
     -o-animation: fadeIn 3s;
     -ms-animation: fadeIn 3s;
 }
-.policy{
 
+.policy{
     margin-left:10%;
     margin-right:10%;
     height:575px;
@@ -388,10 +366,98 @@
     overflow-y: scroll;
 }
 
+.contact_txt{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-weight: 50;
+    margin-top: 2%;
+    height:50px;
+    overflow-y: hidden;
+    text-align: center;
+    color:#7dc9d7;
+}
+
+.contact_subtxt{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: 3%;
+    padding-top: 30px;
+    height:100px;
+    overflow-y: hidden;
+    color:#1f1f1f;
+}
+
+.form{
+    width:100%;
+    height:375px;
+    margin-top: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: hidden;
+
+}
+
+.contact{
+    width:900px;
+    padding:30px;
+    height:50px;
+    font-size:15px;
+    background: transparent;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    overflow-y: hidden;
+    font-family: Verdana, sans-serif;
+}
+
+input[type="text"], input[type="email"]{
+    outline: 0;
+    border: none;
+    border-bottom: 1px solid #1f1f1f;
+    width:500px;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 20;
+    font-family:'Avenir Light', sans-serif;
+    overflow-x: visible;
+    overflow-y: hidden;
+}
+
+::placeholder {
+    height:100%;
+    left:0;
+    right:0;
+    padding-top:10px;
+    padding-bottom:10px;
+    color:#5a5858;
+    overflow-y: hidden;
+    font-size: 15px;
+    font-weight: 20;
+    font-family:'Avenir Light', sans-serif;
+}
+
+
+button{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: transparent;
+    width:85%;
+    background: #93d3df;
+    color: white;
+    font-weight: 100;
+    font-size:20px;
+    outline:0;
+    border:0;
+    overflow-y: hidden;
+    margin-top:-5%;
+    margin-left: 1%;
+}
 
 /* text */
-/* left line */
-header{
+.header{
     margin-top: -15px;
     margin-left:-10%;
     margin-right: 10%;
@@ -439,14 +505,11 @@ a{
   
 }
 h4{
-    color:#000000;
     font-size: 40px;
     font-family: 'Raleway', sans-serif;
-    font-weight:550;
 }
 
 h5{
-    color:#000000;
     font-size: 20px;
     font-weight: 30;
     font-family:'Avenir Light', sans-serif;
@@ -459,5 +522,4 @@ h5{
 
 *, body {
     overflow-x: hidden;
-
 }
