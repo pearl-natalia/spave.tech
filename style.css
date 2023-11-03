@@ -366,13 +366,25 @@
 .app_img{
     margin-left:40%;
     margin-bottom:10%;
-    /* overflow-y: hidden; */
+    overflow-y: hidden;
     width: 250px;
     height:250px;
-    /* filter: drop-shadow(20px 20px 20px rgb(162, 162, 162)); */
+    filter: drop-shadow(20px 20px 20px rgb(162, 162, 162));
     border-radius: 20px;
-    background-color: grey;
-    object-fit: cover;
+    background-color: white;
+    display:flex;
+    align-items: center;
+    -webkit-animation: fadeIn 3s;
+    -moz-animation: fadeIn 3s;
+    -o-animation: fadeIn 3s;
+    -ms-animation: fadeIn 3s;
+}
+.policy{
+
+    margin-left:10%;
+    margin-right:10%;
+    height:650px;
+    overflow-y: scroll;
 }
 
 
