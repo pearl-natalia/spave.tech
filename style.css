@@ -368,10 +368,9 @@ header{
 }
 
 .download_txt{
-    margin-left:20%;
-    margin-right:20%;
-    margin-top: 2%;
-    margin-bottom:3%;
+    position: relative;
+    width: 100%;
+    margin-top: 200px;
     height:100px;
     overflow-y: hidden;
     text-align: center;
@@ -380,16 +379,13 @@ header{
 }
 
 .app_img{
-    margin-left:40%;
-    margin-bottom:10%;
+    position:relative;
+    width: 100%;
     overflow-y: hidden;
-    width: 250px;
-    height:250px;
+    justify-content: center;
+    height:400px;
+    border-radius: 30px;
     filter: drop-shadow(20px 20px 20px rgb(162, 162, 162));
-    border-radius: 20px;
-    background-color: white;
-    display:flex;
-    align-items: center;
     animation: fadeIn 5s;
     -webkit-animation: fadeIn 3s;
     -moz-animation: fadeIn 3s;
@@ -398,10 +394,11 @@ header{
 }
 
 .policy{
-    margin-left:10%;
-    margin-right:10%;
+    position:relative;
+    margin-left:150px;
+    margin-right:150px;
     height:575px;
-    margin-top:2%;
+    margin-top:200px;
     overflow-y: scroll;
 }
 
