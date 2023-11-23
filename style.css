@@ -268,31 +268,42 @@ header{
     overflow-y: hidden;
 }
 
-.peak{
-    margin-left:10%;
-    margin-right:55%;
-    margin-top: 0%;
-    margin-bottom:10%;
-    width: 500px;
+.peak_title{
+    position: relative;
+    margin-left:175px;
+    margin-right:175px;
+    height: 100px;
     overflow-y: hidden;
+    text-align: left;
+
 }
 
+.peak_subtitle{
+    position: absolute;
+    margin-left:175px;
+    margin-right:175px;
+    height: 100px;
+    padding-top: 50px;
+    overflow-y: hidden;
+    text-align: left;
+
+}
 .peak_images{
-    margin-left:0%;
-    margin-right:0%;
-    margin-top:-15%;
-    margin-bottom:5%;
-    height:800px;
+    position: relative;
+    margin-left:175px;
+    margin-right:175px;
+    height:600px;
+    margin-top: 130px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr; 
     overflow-y: hidden;
 }
 
 .peak_img1{
-    margin-left:30%;
-    margin-top: 20%;
-    margin-bottom:50%;
-    border-radius: 8px;
+    position: relative;
+    display: flex;
+    justify-content: left;
+    border-radius:8px;
     height:550px;
     width:350px;
     filter: drop-shadow(20px 20px 20px rgb(162, 162, 162));
@@ -300,10 +311,11 @@ header{
 }
 
 .peak_img2{
-    margin-left:14.5%;
-    margin-top: 20%;
-    margin-bottom:20%;
-    border-radius: 8px;
+    position: relative;
+    display: flex;
+    border-radius:8px;
+    justify-content:center;
+    margin-left: 30px;
     height:550px;
     width:350px;
     filter: drop-shadow(20px 20px 20px rgb(162, 162, 162));
@@ -311,10 +323,11 @@ header{
 }
 
 .peak_img3{
-    margin-left:0%;
-    margin-top: 20%;
-    margin-bottom:20%;
-    border-radius: 8px;
+    position: relative;
+    display: flex;
+    margin-left:70px;
+    justify-content:right;
+    border-radius:8px;
     height:550px;
     width:350px;
     filter: drop-shadow(20px 20px 20px rgb(162, 162, 162));
